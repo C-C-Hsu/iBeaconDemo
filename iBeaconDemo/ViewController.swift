@@ -21,6 +21,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         0: UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
     ]
     
+    var iBeaconStatus : Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
