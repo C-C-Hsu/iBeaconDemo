@@ -16,6 +16,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let region = CLBeaconRegion(proximityUUID: NSUUID(uuidString: "94278BDA- B644-4520-8F0C-720EAF059935")! as UUID, identifier: "Joe")
     
+    let colors = [
+        1: UIColor(red: 255/255, green: 0/255, blue: 0/255, alpha: 1),
+        0: UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
